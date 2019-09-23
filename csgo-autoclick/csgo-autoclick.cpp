@@ -83,9 +83,9 @@ int main(int argc, char** argv)
 					SetCursorPos(912, 575);
 					mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0);
 					mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
-
-					keybd_event(VK_SCROLL, 0, 0, 0);
-					keybd_event(VK_SCROLL, 0, KEYEVENTF_KEYUP, 0);
+					Sleep(1000 * 5);
+					/*keybd_event(VK_SCROLL, 0, 0, 0);
+					keybd_event(VK_SCROLL, 0, KEYEVENTF_KEYUP, 0);*/
 				}
 			}
 			Sleep(500);
